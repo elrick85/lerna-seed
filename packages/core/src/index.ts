@@ -1,3 +1,3 @@
 export const coreFn = () => {
-  console.log('coreFn');
+  console.log('coreFn message');
 };
