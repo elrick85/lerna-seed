@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strictPropertyInitialization": false,
+    "types": ["reflect-metadata"],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "target": "es2015",
+    "strict": true,
+    "outDir": "./lib",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "inlineSourceMap": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*-spec.ts",
+    "configurations/secrets.dev.json"
+  ]
+}

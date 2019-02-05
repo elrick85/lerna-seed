@@ -6,3 +6,4 @@
 /*.log
 /packages/core/lib
 /packages/logger/lib
+/src/service/lib

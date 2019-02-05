@@ -4,7 +4,8 @@
   "scripts": {
     "new-version": "npx lerna version --conventional-commits --no-push",
     "diff": "lerna diff",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
     "lerna": "^3.10.7",
