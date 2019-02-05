@@ -4,4 +4,4 @@ import {loggerFn} from '@myscope/logger';
 coreFn();
 loggerFn();
 
-console.log('My service 1111');
+console.log('My service 1111 dfdf');
