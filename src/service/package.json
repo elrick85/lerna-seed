@@ -1,14 +1,14 @@
 {
   "name": "service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@myscope/core": "1.0.0",
-    "@myscope/logger": "1.0.0"
+    "@myscope/core": "^1.0.1",
+    "@myscope/logger": "^1.0.1"
   },
   "author": "",
   "license": "ISC"
