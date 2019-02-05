@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "new-version": "npx lerna version --conventional-commits --no-push",
+    "diff": "lerna diff"
+  },
+  "devDependencies": {
+    "lerna": "^3.10.7"
+  }
+}
