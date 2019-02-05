@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "new-version": "npx lerna version --conventional-commits --no-push",
+    "new-version": "npx lerna version --no-push",
     "diff": "lerna diff",
     "build": "lerna run build",
     "bootstrap": "lerna bootstrap"
