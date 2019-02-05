@@ -3,9 +3,12 @@
   "private": true,
   "scripts": {
     "new-version": "npx lerna version --conventional-commits --no-push",
-    "diff": "lerna diff"
+    "diff": "lerna diff",
+    "build": "lerna run build"
   },
   "devDependencies": {
-    "lerna": "^3.10.7"
+    "lerna": "^3.10.7",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.3.1"
   }
 }

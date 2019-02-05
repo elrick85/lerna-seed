@@ -4,3 +4,5 @@
 /src/service/node_modules
 /.idea
 /*.log
+/packages/core/lib
+/packages/logger/lib
