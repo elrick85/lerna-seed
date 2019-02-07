@@ -5,4 +5,5 @@ export const loggerFn = () => {
   console.log('logger message3');
   console.log('logger message4');
   console.log('logger message5');
+  console.log('logger message6');
 };
