@@ -1,7 +1,11 @@
 {
   "packages": [
-    "packages/*",
-    "src/*"
+    "packages/*"
   ],
-  "version": "1.0.10"
+  "version": "1.0.10",
+  "command": {
+    "version": {
+      "message": "chore(prerelease): publish %s"
+    }
+  }
 }
