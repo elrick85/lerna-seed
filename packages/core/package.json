@@ -1,6 +1,6 @@
 {
   "name": "lerna-test-core",
-  "version": "1.2.0-SNAPSHOT.5",
+  "version": "1.2.0-SNAPSHOT.6",
   "description": "",
   "files": [
     "lib"
@@ -15,7 +15,7 @@
     "prebuild": "npm run clean && echo Using TypeScript && node ../../node_modules/typescript/bin/tsc --version"
   },
   "dependencies": {
-    "lerna-test-logger": "1.2.0-SNAPSHOT.5",
+    "lerna-test-logger": "1.2.0-SNAPSHOT.6",
     "reflect-metadata": "^0.1.13"
   },
   "keywords": [],
