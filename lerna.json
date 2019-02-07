@@ -2,7 +2,7 @@
   "packages": [
     "packages/*"
   ],
-  "version": "1.2.0-SNAPSHOT.2",
+  "version": "1.2.0-SNAPSHOT.3",
   "command": {
     "version": {
       "message": "chore(prerelease): publish %s"
