@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "new-version": "lerna version release--no-push --yes --exact",
-    "new-preminor": "lerna version prepatch --preid SNAPSHOT --no-push --yes --exact",
+    "new-preminor": "lerna version preminor --preid SNAPSHOT --no-push --yes --exact",
     "diff": "lerna diff",
     "build": "lerna run build",
     "bootstrap": "lerna bootstrap"
