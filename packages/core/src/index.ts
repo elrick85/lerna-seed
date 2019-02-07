@@ -4,4 +4,5 @@ export const coreFn = () => {
   console.log('new message1');
   console.log('new message2');
   console.log('new message3');
+  console.log('new message4');
 };

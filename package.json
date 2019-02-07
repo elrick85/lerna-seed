@@ -2,7 +2,6 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "commit": "lerna version --no-push --yes",
     "new-version": "lerna version prepatch --preid SNAPSHOT --no-push --yes",
     "diff": "lerna diff",
     "build": "lerna run build",
