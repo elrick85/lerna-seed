@@ -1,5 +1,5 @@
 {
-  "name": "@myscope/logger",
+  "name": "lerna-test-logger",
   "version": "1.2.0-SNAPSHOT.5",
   "description": "",
   "files": [
@@ -17,5 +17,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "af13d5c12ec39842603bc593e9b6c9677dc5fc4a"
+  "gitHead": "99658a20dfc79e86290d057bcd344580ca1dee98"
 }
