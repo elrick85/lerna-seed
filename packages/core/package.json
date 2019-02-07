@@ -1,6 +1,6 @@
 {
   "name": "@myscope/core",
-  "version": "1.0.11-SNAPSHOT.0",
+  "version": "1.0.12-SNAPSHOT.0",
   "description": "",
   "files": [
     "lib"
@@ -15,7 +15,7 @@
     "prebuild": "npm run clean && echo Using TypeScript && node ../../node_modules/typescript/bin/tsc --version"
   },
   "dependencies": {
-    "@myscope/logger": "^1.0.7",
+    "@myscope/logger": "^1.0.12-SNAPSHOT.0",
     "reflect-metadata": "^0.1.13"
   },
   "keywords": [],
