@@ -4,7 +4,7 @@
   "scripts": {
     "new-version": "lerna version prerelease --preid SNAPSHOT --yes --exact",
     "new-patch": "lerna version prepatch --preid SNAPSHOT --yes --exact",
-    "publish-canary": "lerna publish from-package --yes --canary --preid SNAPSHOT --exact",
+    "publish-canary": "lerna publish from-package --yes --canary --preid SNAPSHOT --exact --dry-run",
     "diff": "lerna diff",
     "build": "lerna run build",
     "bootstrap": "lerna bootstrap"
