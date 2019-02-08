@@ -1,5 +1,5 @@
 {
-  "name": "lerna-test-core",
+  "name": "@myscope/core",
   "version": "1.2.0-SNAPSHOT.6",
   "description": "",
   "files": [
@@ -15,11 +15,11 @@
     "prebuild": "npm run clean && echo Using TypeScript && node ../../node_modules/typescript/bin/tsc --version"
   },
   "dependencies": {
-    "lerna-test-logger": "1.2.0-SNAPSHOT.6",
+    "@myscope/logger": "1.2.0-SNAPSHOT.6",
     "reflect-metadata": "^0.1.13"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "99658a20dfc79e86290d057bcd344580ca1dee98"
+  "gitHead": "facb47ff0617d247398f293afb0acb480d4f9612"
 }
