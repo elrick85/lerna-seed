@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "new-version": "lerna version prerelease --preid SNAPSHOT --yes --exact",
-    "new-patch": "lerna version prepatch --preid SNAPSHOT --yes --exact",
+    "new-patch": "lerna version minor",
     "publish": "lerna publish from-git --yes",
     "publish-release": "lerna publish from-git --yes --release --exact",
     "diff": "lerna diff",
