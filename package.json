@@ -3,6 +3,9 @@
   "private": true,
   "scripts": {
     "new-version": "lerna version prerelease --preid SNAPSHOT --yes --exact --no-push",
+    "new-prepatch": "lerna version prepatch --preid SNAPSHOT --yes --exact --no-push",
+    "new-preminor": "lerna version preminor --preid SNAPSHOT --yes --exact --no-push",
+    "new-premajor": "lerna version premajor --preid SNAPSHOT --yes --exact --no-push",
     "new-patch": "lerna version patch --yes --exact --no-push",
     "new-minor": "lerna version minor --yes --exact --no-push",
     "new-major": "lerna version major --yes --exact --no-push",
