@@ -4,7 +4,8 @@
   "scripts": {
     "new-version": "lerna version prerelease --preid SNAPSHOT --yes --exact",
     "new-patch": "lerna version prepatch --preid SNAPSHOT --yes --exact",
-    "publish-canary": "lerna publish from-git --yes --canary --preid SNAPSHOT --exact --dry-run",
+    "publish": "lerna publish from-git --yes",
+    "publish-release": "lerna publish from-git --yes --release --exact",
     "diff": "lerna diff",
     "build": "lerna run build",
     "bootstrap": "lerna bootstrap"
