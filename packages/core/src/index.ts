@@ -7,4 +7,5 @@ export const coreFn = () => {
   console.log('new message4');
   console.log('new message5');
   console.log('new message6');
+  console.log('new message7');
 };
