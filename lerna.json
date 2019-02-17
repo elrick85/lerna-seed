@@ -12,6 +12,10 @@
       "message": "chore(release): publish %s"
     },
     "version": {
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ],
       "message": "chore(prerelease): publish %s"
     }
   }
