@@ -10,7 +10,7 @@
     "new-minor": "lerna version minor --yes --exact --no-push",
     "new-major": "lerna version major --yes --exact --no-push",
     "publish": "lerna publish from-package --yes --exact",
-    "publish-release": "lerna publish from-git --yes --release --exact",
+    "publish-git": "lerna publish from-git --yes --exact",
     "diff": "lerna diff",
     "build": "lerna run build",
     "install": "lerna exec -- npm install",
