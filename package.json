@@ -13,6 +13,7 @@
     "publish-release": "lerna publish from-git --yes --release --exact",
     "diff": "lerna diff",
     "build": "lerna run build",
+    "install": "lerna exec -- npm install",
     "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
